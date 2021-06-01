@@ -4,5 +4,5 @@ Contains Implementations of the following standard Data Structures and Algorithm
 Segment Tree <br>
 Fenwick Tree <br>
 Disjoints Set Union <br>
-Lowest Common Ancestor <br>
+Lowest Common Ancestor Algorithm <br>
 </ol>
