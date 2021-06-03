@@ -25,6 +25,12 @@ int dy[9] = {0, 0, 0, 1, -1, 1, -1, 1, -1};
  
 using namespace std;
 
+/*
+Lazy Propagating a SegTree,
+Operations are Adding v, on a segment (l, r)
+and finding Maximum on a segment (l, r).
+*/
+
 struct SegmentTree{
         vector <long long int> t, lazy;
 
