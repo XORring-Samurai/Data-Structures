@@ -5,5 +5,6 @@ Segment Tree <br>
 Lazy Prop. <br>
 Fenwick Tree <br>
 Disjoints Set Union <br>
-Lowest Common Ancestor Algorithm <br>
+Binary Lifting <br>
+Lowest Common Ancestor using SegTree and Binary Lifting <br>
 </ol>
