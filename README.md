@@ -7,4 +7,5 @@ Fenwick Tree <br>
 Disjoints Set Union <br>
 Binary Lifting <br>
 Lowest Common Ancestor using SegTree and Binary Lifting <br>
+Strongly Connected Component <br>
 </ol>
