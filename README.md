@@ -7,6 +7,6 @@ Contains Implementations of the following standard Data Structures and Algorithm
   <li> Disjoints Set Union </li>
   <li> Binary Lifting </li>
   <li> Lowest Common Ancestor using SegTree and Binary Lifting </li>
-  <li> Strongly Connected Component </li>
+  <li> Strongly Connected Components </li>
   <li> Implicit Segment Tree </li>
 </ol>
