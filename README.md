@@ -8,4 +8,5 @@ Disjoints Set Union <br>
 Binary Lifting <br>
 Lowest Common Ancestor using SegTree and Binary Lifting <br>
 Strongly Connected Component <br>
+Implicit Segment Tree <br>
 </ol>
