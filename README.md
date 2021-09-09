@@ -9,4 +9,5 @@ Contains Implementations of the following standard Data Structures and Algorithm
   <li> Lowest Common Ancestor using SegTree and Binary Lifting </li>
   <li> Strongly Connected Components </li>
   <li> Implicit Segment Tree </li>
+  <li> Matrix Class </li>
 </ol>
