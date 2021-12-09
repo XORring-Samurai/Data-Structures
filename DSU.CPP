@@ -31,7 +31,9 @@ struct DSU{
 
         void Initialize (int n){
                 s.assign(n + 1, 1);
-                for(int i = 1; i<=n; i++){
+                a.assign(n + 1, -1);
+                for(int i = 0; i<=n; i++) g[i].clear();
+                for(int i = 0; i<=n; i++){
                         g[i].pb(i);
                         a[i] = i;
                 }
@@ -43,26 +45,17 @@ struct DSU{
                 x = Root(x);
                 y = Root(y);
                 if(x != y){
-                        if(s[x] > s[y]){
-                                for(auto u: g[y]){
-                                        g[x].pb(u);
-                                        a[u] = x;
-                                }
-                                s[x] += s[y];
+                        if(s[x] < s[y]) swap(x, y);
+                        for(auto u: g[y]){
+                                g[x].pb(u);
+                                a[u] = x;
                         }
-                        else{
-                                for(auto u: g[x]){
-                                        g[y].pb(u);
-                                        a[u] = y;
-                                }
-                                s[y] += s[x];
-                        }
+                        s[x] += s[y];
                 }
         }
 
         bool Find (int x, int y){
-                if(Root(x) == Root(y)) return true;
-                else return false;
+                return Root(x) == Root(y);
         }
 
 }dsu;
