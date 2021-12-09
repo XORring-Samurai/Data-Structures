@@ -28,7 +28,7 @@ using namespace std;
 struct SegmentTree{
         vector <int> t;
 
-        void Initialize () {t.assign(N, 0); }
+        void Initialize (int n) {t.assign(4 * n, 0); }
 
         void Update (int idx, int val, int v, int tl, int tr){
                 if(tl == tr) t[v] = val;
